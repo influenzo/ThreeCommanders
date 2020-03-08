@@ -1,0 +1,8 @@
+sleep 3
+ccd /home
+ls -alh
+sleep 1
+lorenzo desimone
+cproclist
+cpwd
+matt selva

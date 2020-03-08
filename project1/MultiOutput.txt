@@ -1,0 +1,60 @@
+pbjms@pbjms-VirtualBox:~/Desktop/osclass/project1$ ./multi 1 4
+
+Running command: sleep 3
+Background: ID [0]: sleep 3
+
+Running Command: ccd /home
+Changed to directory: /home
+
+ 
+Running Command: ls -alh
+total 12K
+drwxr-xr-x  3 root  root  4.0K Jan 20 13:11 .
+drwxr-xr-x 23 root  root  4.0K Jan 23 13:57 ..
+drwxr-xr-x 17 pbjms pbjms 4.0K Jan 22 20:53 pbjms
+
+--- Satistics ---
+Elapsed Time: 13.512 milliseconds
+Page Faults: 0
+Page Faults (reclaimed): 129
+--- End of Satistics ---
+
+
+Running command: sleep 1
+Background: ID [1]: sleep 1
+
+ERROR: 'lorenzo desimone' is an Invalid Command
+
+
+Running Command: cproclist
+-- Background Processes --
+[0] sleep 3
+[1] sleep 1
+
+ 
+Running Command: cpwd
+Current directory: /home
+
+ 
+ERROR: 'matt selva' is an Invalid Command
+
+
+ -- Job Complete [1: sleep 1] --
+Process ID: 31302
+
+--- Satistics ---
+Elapsed Time: 1441.578 milliseconds
+Page Faults: 0
+Page Faults (reclaimed): 255
+--- End of Satistics ---
+
+
+ -- Job Complete [0: sleep 3] --
+Process ID: 31299
+
+--- Satistics ---
+Elapsed Time: 3422.389 milliseconds
+Page Faults: 0
+Page Faults (reclaimed): 321
+--- End of Satistics ---
+

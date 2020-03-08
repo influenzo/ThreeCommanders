@@ -1,0 +1,8 @@
+ccd /
+ls -alh
+cpwd
+matt selva
+ccd /home
+ls -alh
+lorenzo desimone
+cpwd

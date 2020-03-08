@@ -1,0 +1,71 @@
+pbjms@pbjms-VirtualBox:~/Desktop/osclass/project1$ ./custom
+
+Running Command: ccd /
+Changed to directory: /
+
+ 
+Running Command: ls -alh
+total 104K
+drwxr-xr-x  23 root root 4.0K Jan 23 13:57 .
+drwxr-xr-x  23 root root 4.0K Jan 23 13:57 ..
+drwxr-xr-x   2 root root 4.0K Jan 20 13:45 bin
+drwxr-xr-x   3 root root 4.0K Jan 23 13:57 boot
+drwxrwxr-x   2 root root 4.0K Jan 20 13:10 cdrom
+drwxr-xr-x  18 root root 3.9K Jan 22 21:47 dev
+drwxr-xr-x 131 root root  12K Jan 23 13:57 etc
+drwxr-xr-x   3 root root 4.0K Jan 20 13:11 home
+lrwxrwxrwx   1 root root   33 Jan 20 14:00 initrd.img -> boot/initrd.img-4.4.0-171-generic
+drwxr-xr-x  22 root root 4.0K Jan 20 13:41 lib
+drwx------   2 root root  16K Jan 20 13:07 lost+found
+drwxr-xr-x   2 root root 4.0K Jul 19  2016 media
+drwxr-xr-x   2 root root 4.0K Jul 19  2016 mnt
+drwxr-xr-x   2 root root 4.0K Jul 19  2016 opt
+dr-xr-xr-x 184 root root    0 Jan 22 20:53 proc
+drwx------   4 root root 4.0K Jan 20 14:11 root
+drwxr-xr-x  25 root root  820 Jan 30 23:00 run
+drwxr-xr-x   2 root root  12K Jan 20 13:47 sbin
+drwxr-xr-x   2 root root 4.0K Jan 20 13:53 snap
+drwxr-xr-x   2 root root 4.0K Jul 19  2016 srv
+dr-xr-xr-x  13 root root    0 Jan 25 19:50 sys
+drwxrwxrwt  21 root root 4.0K Jan 31 15:30 tmp
+drwxr-xr-x  12 root root 4.0K Jan 20 13:59 usr
+drwxr-xr-x  14 root root 4.0K Jul 19  2016 var
+lrwxrwxrwx   1 root root   30 Jan 20 14:00 vmlinuz -> boot/vmlinuz-4.4.0-171-generic
+
+--- Satistics ---
+Elapsed Time: 1.581 milliseconds
+Page Faults: 0
+Page Faults (reclaimed): 130
+--- End of Satistics ---
+
+
+Running Command: cpwd
+Current directory: /
+
+ 
+ERROR: 'matt selva' is an Invalid Command
+
+
+Running Command: ccd /home
+Changed to directory: /home
+
+ 
+Running Command: ls -alh
+total 12K
+drwxr-xr-x  3 root  root  4.0K Jan 20 13:11 .
+drwxr-xr-x 23 root  root  4.0K Jan 23 13:57 ..
+drwxr-xr-x 17 pbjms pbjms 4.0K Jan 22 20:53 pbjms
+
+--- Satistics ---
+Elapsed Time: 7.970 milliseconds
+Page Faults: 0
+Page Faults (reclaimed): 133
+--- End of Satistics ---
+
+
+ERROR: 'lorenzo desimone' is an Invalid Command
+
+
+Running Command: cpwd
+Current directory: /home
+
